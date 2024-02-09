@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hecal.css">
+    <title>Halifax Festival Sign-Up</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Halifax Festival Sign-up</h1>
+        <h5>Festival starts on November 5 until on November 8, 2023</h5>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <p><u>Feel free to fill out our survey below!</u></p>
+
+            <label><b>Gender:</b></label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="prefer not to say" name="gender" value="perfer not to say">
+            <label for="perfer not to say">LGBTQ</label>
+
+            <label><b>Will you have a vehicle for parking?</b></label>
+            <input type="checkbox" id="tech" name="category" value="tech">
+            <label for="tech"></label>
+
+
+            <label for="location"><b>Where are you coming from?</b></label>
+            <select id="location" name="location">
+                <option value="Hf">Halifax</option>
+                <option value="Dm">Dartmouth</option>
+                <option value="Bf">Bedford</option>
+                <option value="other">Other</option>
+            </select>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>

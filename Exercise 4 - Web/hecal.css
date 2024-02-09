@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("4k image.jpeg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(207, 178, 178, 0.8); /* Adjusted the background color and opacity for a softer look */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increased box shadow for a subtle lift */
+    padding: 80px;
+    text-align: center;
+    max-width: 400px; /* Increased the container width for better readability */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+h1 {
+    color: #333;
+    font-size: 24px; /* Increased the font size for the title */
+    margin-bottom: 20px; /* Added some space below the title */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px 0;
+    text-align: left;
+}
+
+input[type="text"], select {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Added space above the button for better separation */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
